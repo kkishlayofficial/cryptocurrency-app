@@ -16,7 +16,7 @@ const News = ({simplified}) => {
   if(!cryptoNews?.value) return 'Loading...'
   return (
     <Row gutter={[24,24]}>
-      <Col>
+      <Col span={24}>
       <Title className='page-title' level={2} >{`News about ${newsCategory}`}</Title>
       </Col>
       {!simplified && (
